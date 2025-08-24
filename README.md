@@ -1,6 +1,7 @@
 # 📘 Solución Taller: Explorando Sistemas Dinámicos y Bifurcaciones
 
-Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámicos y Bifurcaciones**, abordando aspectos teóricos, matemáticos, de programación y análisis crítico.
+
+✍️ **Autor:**Luigi Rincon".
 
 ---
 
@@ -111,4 +112,3 @@ Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámic
 
 ---
 
-✍️ **Autor:** Solución elaborada a partir del taller original "Explorando Sistemas Dinámicos y Bifurcaciones".
