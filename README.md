@@ -23,9 +23,7 @@ Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámic
 
 4. **Ecuación logística discreta:**
 
-   \[
-   X_{n+1} = r X_n (1 - X_n)
-   \]
+   ![Ecuación logística](formulas/logistica.png)
 
    - \( X_n \): Representa el crecimiento de la población u otra variable en el tiempo \( n \), entre 0 y 1.  
    - \( r \): Tasa de crecimiento.  
@@ -40,20 +38,25 @@ Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámic
 
 1. **Puntos fijos:**
 
-   \[
-   X = 0 \quad \text{y} \quad X = 1 - \frac{1}{r}
-   \]
+   ![Puntos fijos](formulas/puntos_fijos.png)
 
 2. **Derivada y estabilidad:**
 
-   \[
-   f'(X) = r - 2rX
-   \]
+   ![Derivada](formulas/derivada.png)
 
    Sustituyendo en los puntos fijos:
 
-   - En \( X = 0 \): es estable si \( r < 1 \).  
-   - En \( X = 1 - \frac{1}{r} \): es estable si \( 1 < r < 3 \).
+   - En \(X = 0\):  
+     
+     ![Sustitución X=0](formulas/sustitucion_x0.png)
+
+     Es estable si \( r < 1 \).
+
+   - En \(X = 1 - \frac{1}{r}\):  
+     
+     ![Sustitución X=1-1/r](formulas/sustitucion_x1.png)
+
+     Es estable si \( 1 < r < 3 \).
 
 3. **Interpretación:**  
    El punto fijo estable representa el equilibrio de la población (u otra variable) si no hay perturbaciones grandes.  
@@ -61,9 +64,7 @@ Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámic
 
 4. **Ecuación vista en clase (con presentación mejorada):**
 
-   \[
-   X_{n+1} = r X_n (1 - X_n)
-   \]
+   ![Ecuación logística](formulas/logistica.png)
 
 ---
 
@@ -110,4 +111,4 @@ Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámic
 
 ---
 
-✍️ **Autor:** Luigi Rincon".
+✍️ **Autor:** Solución elaborada a partir del taller original "Explorando Sistemas Dinámicos y Bifurcaciones".
