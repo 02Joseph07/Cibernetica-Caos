@@ -52,7 +52,7 @@ Este documento contiene las respuestas al **Taller: Explorando Sistemas Dinámic
 
      Es estable si \( r < 1 \).
 
-   - En \(X = 1 - \1/r\):  
+   - En \(X = 1 - (1/r)\):  
      
      ![Sustitución X=1-1/r](formulas/sustitucion_x1.png)
 
