@@ -5,9 +5,9 @@ public class Lorenz extends JPanel {
     private double[] xs, zs;
 
     public Lorenz() {
-        int steps = 10000;
-        xs = new double[steps];
-        zs = new double[steps];
+        int pasos = 10000;
+        xs = new double[pasos];
+        zs = new double[pasos];
 
         double sigma = 10.0;
         double rho = 28.0;
@@ -16,7 +16,7 @@ public class Lorenz extends JPanel {
         double x = 1.0, y = 1.0, z = 1.0;
         double dt = 0.01;
 
-        for (int i = 0; i < steps; i++) {
+        for (int i = 0; i < pasos; i++) {
             double dx = sigma * (y - x);
             double dy = x * (rho - z) - y;
             double dz = x * y - beta * z;
@@ -38,19 +38,18 @@ public class Lorenz extends JPanel {
 
         g.setColor(Color.BLUE);
 
-        // escalamos valores a la pantalla
         double minX = -30, maxX = 30;
         double minZ = 0, maxZ = 60;
 
         for (int i = 0; i < xs.length; i++) {
             int px = (int) ((xs[i] - minX) / (maxX - minX) * width);
-            int py = (int) ((maxZ - zs[i]) / (maxZ - minZ) * height); // invertimos eje Y
+            int py = (int) ((maxZ - zs[i]) / (maxZ - minZ) * height);
             g.fillRect(px, py, 1, 1);
         }
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Atractor de Lorenz 2D");
+        JFrame frame = new JFrame("Lorenz 2D");
         Lorenz panel = new Lorenz();
         frame.add(panel);
         frame.setSize(800, 600);
