@@ -71,6 +71,8 @@
 
 ## 🔹 Programación y Exploración
 
+![Diagramas](diagramas/Diagramas_Taller_Caos.svg)
+
 - **\( r = 2.5 \):** El sistema empieza a oscilar alrededor de \( 0.6 \).  
 - **\( r = 3.2 \):** El sistema oscila entre aproximadamente \( 0.5 \) y \( 0.8 \).  
 - **\( r = 3.8 \):** El sistema entra en caos: en cada iteración los valores son totalmente diferentes y no hay un patrón visible.
