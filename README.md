@@ -94,7 +94,7 @@
 ## 🔹 Análisis Crítico
 
 1. **¿Por qué sistemas deterministas pueden generar caos?**  
-   Porque, aunque la regla es fija, tienen una alta sensibilidad a las condiciones iniciales, lo que genera pequeñas diferencias que crecen con el tiempo, volviéndose impredecibles.
+   Porque aunque la regla es fija, tienen una alta sensibilidad a las condiciones iniciales, lo que genera pequeñas diferencias que crecen con el tiempo, volviéndose impredecibles.
 
 2. **Diferencias entre orden, caos y homeostasis:**
    - **Orden:** Comportamiento estable y predecible.  
@@ -106,7 +106,6 @@
    - **Oscilación:** Con más stickers, el grupo entra en dinámicas repetitivas (ciclo de 2: un día todos responden, otro nadie).  
    - **Caos:** Si se exagera con los stickers (alto \( r \)), el grupo se vuelve incontrolable (300 mensajes en 5 minutos y luego silencio total).  
 
-   **Defensa:**  
    - El “estado” \( X \) representa el nivel de actividad del grupo.  
    - \( r \) es la tasa de memes compartidos.
 
