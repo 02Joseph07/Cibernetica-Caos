@@ -1,7 +1,7 @@
 # 📘 Solución Taller: Explorando Sistemas Dinámicos y Bifurcaciones
 
 
-✍️ **Autor:**Luigi Rincon".
+✍️ **Autor:** Luigi Rincon.
 
 ---
 
