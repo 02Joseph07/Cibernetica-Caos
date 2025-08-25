@@ -95,7 +95,7 @@
    Ejemplo: en la economía, puede pasar de estable a tener fluctuaciones intensas por pequeños cambios en los parámetros.
 
 
-![Diagrama_bi](formulas/Diagrama_bi.png) 
+![Diagrama_bi](diagramas/Diagrama_bi.png) 
 ---
 
 ## 🔹 Análisis Crítico
