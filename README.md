@@ -56,10 +56,14 @@
 
    - En \(X_1 = 0\):  
      ![Derivada en X0](formulas/derivada_x0.png)  
+
+
      ![Condición X0](formulas/condicion_x0.png)
 
    - En \(X_2 = 1 - 1/r\):  
      ![Derivada en X2](formulas/derivada_x2.png)  
+
+
      ![Condición X2](formulas/condicion_x2.png)
 
 3. **Interpretación:**  
