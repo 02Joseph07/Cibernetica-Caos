@@ -1,7 +1,7 @@
 # 📘 Solución Taller: Explorando Sistemas Dinámicos y Bifurcaciones
 
 
-✍️ **Autor:** Luigi Rincon.
+✍️ **Autores:** Luigi Rincon, Samuel Moya, Juan Holguin
 
 ---
 
@@ -37,35 +37,34 @@
 
 ## 🔹 Análisis Matemático
 
-1. **Puntos fijos:**
+1. **Ecuación logística:**
 
+   ![Ecuación logística](formulas/logistica.png)
+
+   Expansión:  
+   ![Expansión](formulas/expansion.png)
+
+   Factorización:  
+   ![Factorización](formulas/factorizacion.png)
+
+   **Puntos fijos:**  
    ![Puntos fijos](formulas/puntos_fijos.png)
 
 2. **Derivada y estabilidad:**
 
    ![Derivada](formulas/derivada.png)
 
-   Sustituyendo en los puntos fijos:
+   - En \(X_1 = 0\):  
+     ![Derivada en X0](formulas/derivada_x0.png)  
+     ![Condición X0](formulas/condicion_x0.png)
 
-   - En \(X = 0\):  
-     
-     ![Sustitución X=0](formulas/sustitucion_x0.png)
-
-     Es estable si \( r < 1 \).
-
-   - En \(X = 1 - (1/r)\):  
-     
-     ![Sustitución X=1-1/r](formulas/sustitucion_x1.png)
-
-     Es estable si \( 1 < r < 3 \).
+   - En \(X_2 = 1 - 1/r\):  
+     ![Derivada en X2](formulas/derivada_x2.png)  
+     ![Condición X2](formulas/condicion_x2.png)
 
 3. **Interpretación:**  
-   El punto fijo estable representa el equilibrio de la población (u otra variable) si no hay perturbaciones grandes.  
-   Cuando este punto se vuelve inestable, el sistema deja de tener equilibrio y aparece el caos.
+   La relación que cumple con la notación de equilibrio en sistemas físicos o biológicos es la representación de una población o sistema que se mantiene en valores estables sin crecer indefinidamente ni extinguirse.
 
-4. **Ecuación vista en clase (con presentación mejorada):**
-
-   ![Ecuación logística](formulas/logistica.png)
 
 ---
 
@@ -91,6 +90,8 @@
    Al aumentar la tasa de crecimiento \( r \), un sistema aparentemente ordenado se vuelve impredecible.  
    Ejemplo: en la economía, puede pasar de estable a tener fluctuaciones intensas por pequeños cambios en los parámetros.
 
+
+![Diagrama_bi](formulas/Diagrama_bi.png) 
 ---
 
 ## 🔹 Análisis Crítico
